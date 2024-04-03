@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2 class="title">Cash Register</h2>
+    <div class="change-due" id="change-due"></div>
+    <div class="container__input">
+      <h2 class="subtitle">Enter cash from customer</h2>
+      <input type="number" name="" id="cash" class="cash" />
+      <button type="button" id="purchase-btn" class="purchase-btn">
+        Purchase
+      </button>
+    </div>
+    <div class="container__box">
+      <div class="display">
+        <input
+          type="text"
+          name=""
+          id=""
+          class="input__display"
+          readonly
+          placeholder="Total $3.26"
+        />
+      </div>
+      <div class="conect"></div>
+      <div class="box__body">
+        <div class="teclas">
+          <div class="teclas__number"></div>
+          <div class="teclas__number"></div>
+          <div class="teclas__number"></div>
+          <div class="teclas__number"></div>
+          <div class="teclas__number"></div>
+          <div class="teclas__number"></div>
+          <div class="teclas__number"></div>
+          <div class="teclas__number"></div>
+          <div class="teclas__number"></div>
+        </div>
+        <div class="description" id="description"></div>
+      </div>
+      <div class="box__body--bottom">
+        <div class="circle"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
